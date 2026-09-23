@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>FÉNYCSÓVA</title>
+  <title>MAGÁNÉLET VÉDELME</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
@@ -16,7 +16,7 @@
     }
     * { margin: 0; box-sizing: border-box; }
 body {
-  background: linear-gradient(to right, #3a002b, #0b0525);
+  background: linear-gradient(to right, #000000, #eeeeee);
   font-family: 'Inter', system-ui, sans-serif;
   color: var(--text);
   min-height: 100vh;
@@ -112,6 +112,6 @@ body {
 
   </main>
 
-  <footer>Sunny Daydreamer © 2026 All rights reserved</footer>
+  <footer> © 2026 All rights reserved</footer>
 </body>
 </html>   
