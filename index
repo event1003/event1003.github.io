@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FÉNYCSÓVA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --surface: #2d0f45;
+      --text: #e7e7e7;
+      --muted: #8b8b9e;
+      --accent: #00b6ff;
+      --radius: 16px;
+    }
+    * { margin: 0; box-sizing: border-box; }
+body {
+  background: linear-gradient(to right, #3a002b, #0b0525);
+  font-family: 'Inter', system-ui, sans-serif;
+  color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1.5rem 3rem;
+  line-height: 1.7;
+}
+.highlight { color: #00b6ff; }   
+    main { width: 100%; max-width: 720px; }
+
+    /* --- Video --- */
+    .video-wrap {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+      margin-bottom: 3rem;
+    }
+    .video-wrap iframe {
+      position: absolute; inset: 0;
+      width: 100%; height: 100%; border: 0;
+    }
+
+   /* --- Content --- */
+.content {
+  text-align: center;
+}   
+.content h1 {
+  font-size: clamp(2.2rem, 6vw, 3.2rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.5rem;
+}
+.content h2 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+.content p {
+  font-size: 1.3rem;
+  color: #c8c8d8;
+  margin-bottom: 1.5rem;
+}   
+    
+    /* --- Email button --- */
+    .email-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-top: 2.5rem;
+      padding: 0.75rem 1.5rem;
+      background: var(--accent);
+      color: #fff;
+      border-radius: 99px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: opacity 0.2s, transform 0.2s;
+    }
+    .email-btn:hover {
+      opacity: 0.85;
+      transform: translateY(-2px);
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main>
+
+  
+      <br><br>
+    <!-- SZÖVEG -->
+    <div class="content">
+      <h1> KJFDGÁKJBSFGKJGSH SHJ ÁIJSRTH J SGHÁSJ GSÁ JHSH J ÁSTJ SRTHJ ÁJGÁOAR ATH </span></h1>
+
+      <p></p>
+
+      <!-- E-MAIL GOMB -->
+      <a class="email-btn" href="mailto:github.deluxe992@passinbox.com">
+        ✉️ Írj nekem
+      </a>
+    </div>
+
+  </main>
+
+  <footer>Sunny Daydreamer © 2026 All rights reserved</footer>
+</body>
+</html>   
